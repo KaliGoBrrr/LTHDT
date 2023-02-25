@@ -13,12 +13,6 @@ public class HinhVuong {
     private float chuVi;
     private float dienTich;
     //---------------------------------------//
-    public void tinhChuVi(){
-        chuVi = canh*4;
-    }
-    public void tinhDienTich() {
-        dienTich = canh*canh;
-    }
     public float getCanh() {
         return canh;
     }

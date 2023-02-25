@@ -15,12 +15,6 @@ public class HinhTron {
     private float chuVi;
     private float dienTich;
     //---------------------------------------//
-    public void tinhChuVi(){
-        chuVi = (float)(2*PI*banKinh);
-    }
-    public void tinhDienTich(){
-        dienTich = (float)(PI*duongKinh);
-    }
     public double getPI() {
         return PI;
     }
