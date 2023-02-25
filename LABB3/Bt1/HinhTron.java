@@ -11,7 +11,7 @@ package hinhvuonghinhtron;
 public class HinhTron {
     private double PI = 3.14;
     private float duongKinh;
-    private float banKinh=duongKinh/2;
+    private float banKinh;
     private float chuVi;
     private float dienTich;
     //---------------------------------------//
