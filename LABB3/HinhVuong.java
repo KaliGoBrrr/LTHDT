@@ -19,12 +19,25 @@ public class HinhVuong {
     public void tinhDienTich() {
         dienTich = canh*canh;
     }
-    float getchuVi(){
+    public float getCanh() {
+        return canh;
+    }
+    public void setCanh(float canh) {
+        this.canh = canh;
+    }
+    public float getChuVi() {
         return chuVi;
     }
-    float getdienTich(){
+    public void setChuVi(float chuVi) {
+        this.chuVi = chuVi;
+    }
+    public float getDienTich() {
         return dienTich;
     }
+    public void setDienTich(float dienTich) {
+        this.dienTich = dienTich;
+    }
+    
 }
 
     
